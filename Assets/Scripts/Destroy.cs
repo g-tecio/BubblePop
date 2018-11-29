@@ -35,5 +35,8 @@ public class Destroy : MonoBehaviour {
 	{
 		CancelInvoke("CameraShake");
 		originalCameraPosition.z = -10; // Keeps Z position on -10 in order to keep the main scene on screen
+		originalCameraPosition.y = 0;
+		originalCameraPosition.x = 0;
+	
 	}
 }

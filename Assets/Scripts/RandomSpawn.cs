@@ -21,7 +21,7 @@ public class RandomSpawn : MonoBehaviour {
 	void Update () {
 		if(Time.time > nextSpawn){
 			whatToSpawn = Random.Range(1,3);
-			Debug.Log (whatToSpawn);
+			
 
 			switch(whatToSpawn){
 				case 1:
