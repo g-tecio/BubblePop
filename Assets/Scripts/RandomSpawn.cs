@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class RandomSpawn : MonoBehaviour {
 
-	public GameObject coin, bomb;
+	public GameObject bubble;
 
 	public float spawnRate = 2f;
 
@@ -25,10 +25,7 @@ public class RandomSpawn : MonoBehaviour {
 
 			switch(whatToSpawn){
 				case 1:
-				Instantiate(coin,transform.position,Quaternion.identity);
-				break;
-				case 2:
-				Instantiate(bomb,transform.position,Quaternion.identity);
+				Instantiate(bubble,transform.position,Quaternion.identity);
 				break;
 			}
 			nextSpawn = Time.time + spawnRate;

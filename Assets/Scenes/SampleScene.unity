@@ -217,8 +217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aba0681e458a4c018c6dfcc10061e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 1353962210445018, guid: 7c41d440d518648589d09f6b88aab485, type: 2}
-  bomb: {fileID: 1726660493221548, guid: ee29693171d954b3ebe665407a136a27, type: 2}
+  bubble: {fileID: 1667676880275064, guid: 5c00d5bb33274477f8652db0d08fec21, type: 2}
   spawnRate: 1
 --- !u!4 &863897392
 Transform:
@@ -227,7 +226,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 863897390}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.48, y: -3.56, z: -0.05690728}
+  m_LocalPosition: {x: -0.48, y: -3.81, z: -0.05690728}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -299,6 +298,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f51ed0164aa448c186cb0fea398079b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  mainCamera: {fileID: 519420031}
 --- !u!1 &1442284161
 GameObject:
   m_ObjectHideFlags: 0
@@ -314,7 +314,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1442284162
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,8 +326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aba0681e458a4c018c6dfcc10061e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 1353962210445018, guid: 7c41d440d518648589d09f6b88aab485, type: 2}
-  bomb: {fileID: 1726660493221548, guid: ee29693171d954b3ebe665407a136a27, type: 2}
+  bubble: {fileID: 1667676880275064, guid: 5c00d5bb33274477f8652db0d08fec21, type: 2}
   spawnRate: 2
 --- !u!4 &1442284163
 Transform:
@@ -336,7 +335,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1442284161}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.38, y: 5.72, z: -0.05690728}
+  m_LocalPosition: {x: 1.87, y: -3.57, z: -0.05690728}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -357,7 +356,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2035747253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -369,9 +368,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aba0681e458a4c018c6dfcc10061e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 1353962210445018, guid: 7c41d440d518648589d09f6b88aab485, type: 2}
-  bomb: {fileID: 1726660493221548, guid: ee29693171d954b3ebe665407a136a27, type: 2}
-  spawnRate: 5
+  bubble: {fileID: 1667676880275064, guid: 5c00d5bb33274477f8652db0d08fec21, type: 2}
+  spawnRate: 1
 --- !u!4 &2035747254
 Transform:
   m_ObjectHideFlags: 0
@@ -379,7 +377,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2035747252}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.61, y: 7.91, z: -0.05690728}
+  m_LocalPosition: {x: -2.22, y: -3.25, z: -0.05690728}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -400,7 +398,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2089352689
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -412,8 +410,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0aba0681e458a4c018c6dfcc10061e8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  coin: {fileID: 1353962210445018, guid: 7c41d440d518648589d09f6b88aab485, type: 2}
-  bomb: {fileID: 1726660493221548, guid: ee29693171d954b3ebe665407a136a27, type: 2}
+  bubble: {fileID: 1667676880275064, guid: 5c00d5bb33274477f8652db0d08fec21, type: 2}
   spawnRate: 3
 --- !u!4 &2089352690
 Transform:
@@ -422,7 +419,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2089352688}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.64, y: 5.72, z: -0.05690728}
+  m_LocalPosition: {x: 1.25, y: -2.92, z: -0.05690728}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
