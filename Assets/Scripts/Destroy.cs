@@ -15,7 +15,6 @@ public class Destroy : MonoBehaviour {
 			shakeAmt = col.relativeVelocity.magnitude * .0025f;
 			InvokeRepeating("CameraShake", 0, .01f);
 			Invoke("StopShaking", 0.3f);
-			
 		}
 
 		
@@ -26,17 +25,15 @@ public class Destroy : MonoBehaviour {
 			{
 				float quakeAmt = Random.value*shakeAmt*2 - shakeAmt;
 				Vector3 pp = mainCamera.transform.position;
-				pp.y += quakeAmt;
-				pp.x += quakeAmt;
-				
+				pp.y += quakeAmt; // Shakes Y of the camera
+				pp.x += quakeAmt; //Shakes X of the camera
 				mainCamera.transform.position = pp;
-
 			}
 		}
 
 	void StopShaking()
 	{
 		CancelInvoke("CameraShake");
-		originalCameraPosition.z = -10;
+		originalCameraPosition.z = -10; // Keeps Z position on -10 in order to keep the main scene on screen
 	}
 }

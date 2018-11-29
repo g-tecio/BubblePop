@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Click : MonoBehaviour {
 
+	public AudioClip boop;
 	// Use this for initialization
 	void Start () {
 		
@@ -15,6 +16,12 @@ public class Click : MonoBehaviour {
 	}
 
 	void OnMouseDown(){
+		AudioSource.PlayClipAtPoint(boop,new Vector3(5,1,2));
 		Destroy(gameObject);
+		
 	}
+	
+	
+
+	
 }
