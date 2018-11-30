@@ -11,8 +11,11 @@ public class Destroy : MonoBehaviour {
 		{
 			Destroy(col.gameObject);
 			CameraShaker.Instance.ShakeOnce(4f,4f,.1f,.1f);
-			AudioSource.PlayClipAtPoint(bottleShake,new Vector3(5,1,2));
+			AudioSource.PlayClipAtPoint(bottleShake,new Vector3(5,1,2));	
+			GameObject.Find("SpawnerController").GetComponent<SpawnController>().enabled = true;
 		}
+
+		
 
 		
 
