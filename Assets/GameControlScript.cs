@@ -3,25 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour {
+public class GameControlScript : MonoBehaviour {
 
-	public GameObject gameOverPanel, heart1, heart2, heart3;
-
-	public void GameOver(){
-		gameOverPanel.SetActive(true);
-	}
-
-	public void Restart(){
-		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-	}
-
+	public GameObject heart1, heart2, heart3, gameOver;
 	public static int health;
 	void Start () {
 		health = 3;
 		heart1.gameObject.SetActive(true);
 		heart2.gameObject.SetActive(true);
 		heart3.gameObject.SetActive(true);
-		gameOverPanel.gameObject.SetActive(false);
+		gameOver.gameObject.SetActive(false);
 	}
 	
 	// Update is called once per frame
@@ -49,11 +40,14 @@ public class GameManager : MonoBehaviour {
 			heart1.gameObject.SetActive(false);
 			heart2.gameObject.SetActive(false);
 			heart3.gameObject.SetActive(false);
-			gameOverPanel.gameObject.SetActive(true);
+			gameOver.gameObject.SetActive(true);
 			Time.timeScale = 0;
 			break;
 			
 		}
 	}
 
+	public void Restart(){
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+	}
 }

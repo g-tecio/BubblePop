@@ -16,8 +16,8 @@ public class Destroy : MonoBehaviour {
 			Spawn1.SetActive(true);
 			Spawn2.SetActive(true);
 			Spawn3.SetActive(true);
-			GameObject.Find("GameManager").GetComponent<GameManager>().GameOver();
-
+			//GameObject.Find("GameManager").GetComponent<GameManager>().GameOver();
+			GameManager.health -= 1;
 		}
 
 
