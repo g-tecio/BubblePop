@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubble: {fileID: 1077014992183744, guid: e264e41c6a63946c385ea8791d8ce1a4, type: 2}
-  spawnRate: 5
+  spawnRate: 1
 --- !u!1 &321954434
 GameObject:
   m_ObjectHideFlags: 0
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubble: {fileID: 1077014992183744, guid: e264e41c6a63946c385ea8791d8ce1a4, type: 2}
-  spawnRate: 9
+  spawnRate: 3
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -469,7 +469,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bubble: {fileID: 1077014992183744, guid: e264e41c6a63946c385ea8791d8ce1a4, type: 2}
-  spawnRate: 7
+  spawnRate: 2
 --- !u!1 &2035747252
 GameObject:
   m_ObjectHideFlags: 0
