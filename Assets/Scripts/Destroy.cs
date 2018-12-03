@@ -18,6 +18,8 @@ public class Destroy : MonoBehaviour {
 			Spawn3.SetActive(true);
 
 		}
+
+	
 	}
 	
 
