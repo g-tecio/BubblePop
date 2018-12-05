@@ -12,7 +12,7 @@ public class Click : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
 
 	void OnMouseDown(){
@@ -20,6 +20,8 @@ public class Click : MonoBehaviour {
 		Destroy(gameObject);
 		GameObject.Find("GameManager").GetComponent<ScoreManager>().AddScore();
 	}
+
+
 
 	
 }
