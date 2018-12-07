@@ -7,7 +7,7 @@ public class Click : MonoBehaviour {
 	public AudioClip boop;
 	// Use this for initialization
 	void Start () {
-		
+		enabled = true;
 	}
 	
 	// Update is called once per frame

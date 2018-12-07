@@ -11,6 +11,7 @@ public class RandomSpawn : MonoBehaviour {
 	float nextSpawn = 0f;
 
 	int whatToSpawn;
+	
 
 	// Use this for initialization
 	void Start () {
