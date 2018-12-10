@@ -78,6 +78,7 @@ public class GameManager : MonoBehaviour {
 			Sspawn2.gameObject.SetActive(false);
 			Sspawn3.gameObject.SetActive(false);
 			gameOverPanel.gameObject.SetActive(true);
+			
 			Time.timeScale = 1;
 			break;
 			
