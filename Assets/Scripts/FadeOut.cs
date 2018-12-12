@@ -16,7 +16,7 @@ public class FadeOut : MonoBehaviour {
         yield return new WaitForSecondsRealtime(2.5f);
         Fadeout();
         yield return new WaitForSecondsRealtime(2.5f);
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("MainMenu");
     }
 
     void FadeIn()
