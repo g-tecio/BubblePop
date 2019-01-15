@@ -939,6 +939,8 @@ MonoBehaviour:
   Sspawn1: {fileID: 17979276}
   Sspawn2: {fileID: 1669483015}
   Sspawn3: {fileID: 321954434}
+  prefab1: {fileID: 1077014992183744, guid: e264e41c6a63946c385ea8791d8ce1a4, type: 2}
+  prefab2: {fileID: 1870111678413316, guid: 7cd228cf9cb334a71bc915dbb890d692, type: 2}
 --- !u!1 &926455619
 GameObject:
   m_ObjectHideFlags: 0

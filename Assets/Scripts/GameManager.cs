@@ -4,9 +4,10 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
 
+
 public class GameManager : MonoBehaviour {
 
-	public GameObject gameOverPanel, heart1, heart2, heart3, Bspawn1, Bspawn2, Bspawn3, Sspawn1, Sspawn2, Sspawn3;
+	public GameObject gameOverPanel, heart1, heart2, heart3, Bspawn1, Bspawn2, Bspawn3, Sspawn1, Sspawn2, Sspawn3, prefab1,prefab2;
 	public void Restart(){
 		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 		
@@ -77,6 +78,8 @@ public class GameManager : MonoBehaviour {
 			Sspawn1.gameObject.SetActive(false);
 			Sspawn2.gameObject.SetActive(false);
 			Sspawn3.gameObject.SetActive(false);
+			
+
 			gameOverPanel.gameObject.SetActive(true);
 			
 			Time.timeScale = 1;
